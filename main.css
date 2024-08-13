@@ -1,9 +1,99 @@
 *{
     margin: 0;
     padding: 0;
+}
+    .container{
+        width: 100%;
+        min-height: 100vh;
     background: rgba(0, 0, 0,0.7) url(images/university.jpg);
     background-size: cover;
     background-blend-mode:darken ;
 
 }
-.
+nav{
+   
+   
+    width: 100%;
+    display: flex;
+   
+    justify-content: flex-end;
+    padding: 10px 0;
+    position: absolute;
+    top:0;
+    right:0;
+    
+}
+h1{
+    display: flex;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    justify-content: space-between;
+    left: 40px;    
+}
+nav ul li{
+    
+    list-style: none;
+    display: inline-block;
+}
+i{
+    color: white;
+    font-size: 40px;
+    position:absolute;
+    left: 20px;
+    top: 10px;
+}
+.akka{
+    font-size: 40px;
+    position:absolute;
+    left: 80px;
+    top: 10px;
+}
+.title{
+    color: white;
+    font-size: 60px;
+    position:absolute;
+    
+    left: 400px;
+    top: 200px;
+
+}
+h3{
+    color: white;
+    position:absolute;
+    
+    left: 460px;
+    top: 270px
+
+}
+.visit{
+    position:absolute;
+    left: 600px;
+    top: 370px;
+   
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size:15px;
+    cursor: pointer;
+    
+}
+.dash1{
+    position:absolute;
+    left: 560px;
+    top: 379px;
+    color: white;
+    font-size: 22px;
+}
+.dash2{
+    position:absolute;
+    left: 801px;
+    top: 379px;
+    color: white;
+    font-size: 22px;
+}
