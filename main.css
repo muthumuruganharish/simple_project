@@ -97,3 +97,81 @@ h3{
     color: white;
     font-size: 22px;
 }
+
+
+
+
+
+/* -------------------------------------------------SecondSlide-------------------------------------------------*/
+
+
+
+
+
+.secondslide {
+ 
+    
+    background: aliceblue;
+    min-height: 100vh;
+    
+
+
+}
+
+.secondslidetitle{
+    font-family: "Noto Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 50px;
+}
+
+.secondslidetitle h1,p{
+    color: black;
+}
+
+.secondslideimage { 
+    display: flex;
+    flex-direction:row;
+    justify-content: center; 
+    align-items: center;
+}
+
+.secondslideimagecontainer{
+    position: relative;
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 500px;
+
+}
+
+.secondslideimagecontainer img {
+
+    width: 80%;
+    border-radius: 10px;
+}
+
+.secondslideimagecontainer  a {
+    font-family: "Noto Sans", sans-serif;
+    font-size: large;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%); 
+    color: rgb(0, 0, 0); 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none;
+    
+}
+
+.secondslideimagecontainer:hover img{
+    opacity: 0.6;
+}
+
+.secondslideimagecontainer:hover a {
+    display: block;     
+}
