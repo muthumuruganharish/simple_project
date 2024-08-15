@@ -97,3 +97,171 @@ h3{
     color: white;
     font-size: 22px;
 }
+
+
+
+
+
+/* -------------------------------------------------SecondSlide-------------------------------------------------*/
+
+
+
+
+
+.secondslide {
+ 
+    
+    background: aliceblue;
+    min-height: 100vh;
+    
+
+
+}
+
+.secondslidetitle{
+    font-family: "Noto Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 50px;
+}
+
+.secondslidetitle h1,p{
+    color: black;
+}
+
+.secondslideimage { 
+    display: flex;
+    flex-direction:row;
+    justify-content: center; 
+    align-items: center;
+}
+
+.secondslideimagecontainer{
+    position: relative;
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 500px;
+
+}
+
+.secondslideimagecontainer img {
+
+    width: 80%;
+    border-radius: 10px;
+}
+
+.secondslideimagecontainer  a {
+    font-family: "Noto Sans", sans-serif;
+    font-size: large;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%); 
+    color: rgb(0, 0, 0); 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none;
+    
+}
+
+.secondslideimagecontainer:hover img{
+    opacity: 0.6;
+}
+
+.secondslideimagecontainer:hover a {
+    display: block;     
+}
+/*-------------------------------------third slide----------------------------------------*/
+.thirdslidetitle h1{
+    color: black;
+    position: absolute;
+    left: 600px;
+    font-size: 40px;
+    margin-bottom: 20px;
+   
+}
+.f1{
+    color:green;
+}
+.thirdslidetitle p{
+    color: gray;
+    margin-top: 20px;
+    
+    font-size: 20px;
+    
+}
+.fac1{
+    width: 400px;
+    position: absolute;
+    top:1640px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+.fac1:hover{
+    transform: scale(1.1);
+}
+.fac2:hover{
+    transform: scale(1.1);
+}
+.fac3:hover{
+    transform: scale(1.1);
+}
+.fac2{
+    width: 400px;
+    position: absolute;
+    left:500px;
+    top:1640px;
+    transition: transform 0.3s;
+    border-radius: 20px;
+
+
+}
+.fac3{
+    width: 400px;
+    position: absolute;
+    transition: transform 0.3s;
+
+    left:1000px;
+    top:1640px;
+    border-radius: 20px;
+
+}
+.h11{
+    position: absolute;
+    top:1950px;
+    color: black;
+}
+.p11{
+    position: absolute;
+    top:1980px;
+    color: gray;
+}
+.h22{
+    position: absolute;
+    top:1950px;
+    color: black;
+    left:500px;
+}
+.p22{
+    position: absolute;
+    top:1980px;
+    color: gray;
+    left: 500px;
+}
+.h33{
+    position: absolute;
+    top:1950px;
+    color: black;
+    left: 1000px;
+}
+.p33{
+    position: absolute;
+    top:1980px;
+    color: gray;
+    left: 1000px;
+}
+
