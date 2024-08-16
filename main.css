@@ -260,3 +260,53 @@ h3{
     color: black;
     font-family: "Noto Sans", sans-serif;
 }
+
+
+
+/*------------------------------------ Fourth slide----------------------------------------*/
+
+
+
+.fourthslide{
+    background: aliceblue;
+    min-height: 100vh;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+
+.fourthslidetitle{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fourthslidetitle h1,h3{
+    color: black;
+}
+
+.fourthslidecommand{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 2.5rem;
+    
+}
+
+.commandbox{
+    min-height:100px ;
+    min-width: 500px;
+    max-width: 500px;
+    background: #faefef;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+.commandbox img{
+    width: 50px;
+    border-radius: 5px;
+   
+}
