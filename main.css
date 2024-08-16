@@ -133,7 +133,6 @@ h3{
 
 .secondslideimage { 
     display: flex;
-    flex-direction:row;
     justify-content: center; 
     align-items: center;
 }
@@ -176,10 +175,22 @@ h3{
     display: block;     
 }
 /*-------------------------------------third slide----------------------------------------*/
+
+.thirdslide{
+    background: aliceblue;
+    min-height: 100vh;
+    
+}
+.thirdslidetitle{
+    font-family: "Noto Sans", sans-serif;
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .thirdslidetitle h1{
+
     color: black;
-    position: absolute;
-    left: 600px;
     font-size: 40px;
     margin-bottom: 20px;
    
@@ -187,34 +198,47 @@ h3{
 .f1{
     color:green;
 }
+
+
 .thirdslidetitle p{
     color: gray;
-    margin-top: 20px;
-    
     font-size: 20px;
     
 }
+
+.thirdslideimage{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+
+}
+.thirdslideimagecontainer{
+    display: inline-block;
+    padding: 2rem;
+    
+}
+
 .fac1{
     width: 400px;
-    position: absolute;
-    top:1640px;
     border-radius: 20px;
     transition: transform 0.3s;
 }
+
 .fac1:hover{
     transform: scale(1.1);
 }
+
 .fac2:hover{
     transform: scale(1.1);
 }
+
 .fac3:hover{
     transform: scale(1.1);
 }
+
 .fac2{
     width: 400px;
-    position: absolute;
-    left:500px;
-    top:1640px;
     transition: transform 0.3s;
     border-radius: 20px;
 
@@ -222,46 +246,17 @@ h3{
 }
 .fac3{
     width: 400px;
-    position: absolute;
     transition: transform 0.3s;
-
-    left:1000px;
-    top:1640px;
     border-radius: 20px;
 
 }
-.h11{
-    position: absolute;
-    top:1950px;
+
+.h11,.h22,.h33{
     color: black;
-}
-.p11{
-    position: absolute;
-    top:1980px;
-    color: gray;
-}
-.h22{
-    position: absolute;
-    top:1950px;
-    color: black;
-    left:500px;
-}
-.p22{
-    position: absolute;
-    top:1980px;
-    color: gray;
-    left: 500px;
-}
-.h33{
-    position: absolute;
-    top:1950px;
-    color: black;
-    left: 1000px;
-}
-.p33{
-    position: absolute;
-    top:1980px;
-    color: gray;
-    left: 1000px;
+    font-family: "Noto Sans", sans-serif;
 }
 
+.p11,.p22,.p33{
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+}
