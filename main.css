@@ -62,8 +62,8 @@ i{
     top: 200px;
 
 }
-h3{
-    color: white;
+.abc{
+    color: lightgray;
     position:absolute;
     
     left: 460px;
@@ -133,7 +133,6 @@ h3{
 
 .secondslideimage { 
     display: flex;
-    flex-direction:row;
     justify-content: center; 
     align-items: center;
 }
@@ -176,10 +175,22 @@ h3{
     display: block;     
 }
 /*-------------------------------------third slide----------------------------------------*/
+
+.thirdslide{
+    background: aliceblue;
+    min-height: 100vh;
+    
+}
+.thirdslidetitle{
+    font-family: "Noto Sans", sans-serif;
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .thirdslidetitle h1{
+
     color: black;
-    position: absolute;
-    left: 600px;
     font-size: 40px;
     margin-bottom: 20px;
    
@@ -187,34 +198,47 @@ h3{
 .f1{
     color:green;
 }
+
+
 .thirdslidetitle p{
     color: gray;
-    margin-top: 20px;
-    
     font-size: 20px;
     
 }
+
+.thirdslideimage{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+
+}
+.thirdslideimagecontainer{
+    display: inline-block;
+    padding: 2rem;
+    
+}
+
 .fac1{
     width: 400px;
-    position: absolute;
-    top:1640px;
     border-radius: 20px;
     transition: transform 0.3s;
 }
+
 .fac1:hover{
     transform: scale(1.1);
 }
+
 .fac2:hover{
     transform: scale(1.1);
 }
+
 .fac3:hover{
     transform: scale(1.1);
 }
+
 .fac2{
     width: 400px;
-    position: absolute;
-    left:500px;
-    top:1640px;
     transition: transform 0.3s;
     border-radius: 20px;
 
@@ -222,46 +246,151 @@ h3{
 }
 .fac3{
     width: 400px;
-    position: absolute;
     transition: transform 0.3s;
-
-    left:1000px;
-    top:1640px;
     border-radius: 20px;
 
 }
-.h11{
-    position: absolute;
-    top:1950px;
+
+.h11,.h22,.h33{
     color: black;
-}
-.p11{
-    position: absolute;
-    top:1980px;
-    color: gray;
-}
-.h22{
-    position: absolute;
-    top:1950px;
-    color: black;
-    left:500px;
-}
-.p22{
-    position: absolute;
-    top:1980px;
-    color: gray;
-    left: 500px;
-}
-.h33{
-    position: absolute;
-    top:1950px;
-    color: black;
-    left: 1000px;
-}
-.p33{
-    position: absolute;
-    top:1980px;
-    color: gray;
-    left: 1000px;
+    font-family: "Noto Sans", sans-serif;
 }
 
+.p11,.p22,.p33{
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+
+/*------------------------------------ Fourth slide----------------------------------------*/
+
+
+
+.fourthslide{
+    background: aliceblue;
+    min-height: 100vh;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+
+.fourthslidetitle{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fourthslidetitle h1,h3{
+    color: black;
+}
+
+.fourthslidecommand{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 2.5rem;
+    
+}
+
+.commandbox{
+    min-height:100px ;
+    min-width: 500px;
+    max-width: 500px;
+    background: #faefef;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+.commandbox img{
+    width: 50px;
+    border-radius: 5px;
+   
+}
+/*---------------fifth slide-----------------*/
+.final{
+    position: relative;
+    left: 350px;
+    width:50%;
+    min-height: 30vh;
+background: rgba(0, 0, 0,0.7) url(images/discuss.png);
+background-size: cover;
+background-blend-mode:darken ;
+border-radius:15px ;
+
+}
+.fiv{
+    background-color: aliceblue;
+}
+.final h1{
+    position: relative;
+    top:40px;
+    display: flex;
+    justify-content: center;
+}
+.final button{
+    position:relative;
+    top:100px;
+    left: 300px;
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+   
+}
+.fp1{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top:158px;
+    left: 222px;
+}
+.fp2{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top:158px;
+    left: 380px;
+}
+.fa-facebook{
+    position: absolute;
+    left:660px;
+    top:130px;
+    font-size: 20px;
+  
+}
+.fa-x-twitter{
+    position: absolute;
+    left:700px;
+    top:130px;
+    font-size: 20px;
+}
+.fa-instagram{
+    position: absolute;
+    left:740px;
+    top:130px;
+    font-size: 20px;
+}
+.fa-linkedin-in{
+    position: absolute;
+    left:780px;
+    top:130px;
+    font-size: 20px;
+
+}
+.copy{
+    position: absolute;
+    left:660px;
+    top:190px;
+    font-size: 14px;
+    color: gray;
+
+}
+footer{
+    background-color: aliceblue;
+}
