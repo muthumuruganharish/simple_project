@@ -62,8 +62,8 @@ i{
     top: 200px;
 
 }
-h3{
-    color: white;
+.abc{
+    color: lightgray;
     position:absolute;
     
     left: 460px;
@@ -309,4 +309,88 @@ h3{
     width: 50px;
     border-radius: 5px;
    
+}
+/*---------------fifth slide-----------------*/
+.final{
+    position: relative;
+    left: 350px;
+    width:50%;
+    min-height: 30vh;
+background: rgba(0, 0, 0,0.7) url(images/discuss.png);
+background-size: cover;
+background-blend-mode:darken ;
+border-radius:15px ;
+
+}
+.fiv{
+    background-color: aliceblue;
+}
+.final h1{
+    position: relative;
+    top:40px;
+    display: flex;
+    justify-content: center;
+}
+.final button{
+    position:relative;
+    top:100px;
+    left: 300px;
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+   
+}
+.fp1{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top:158px;
+    left: 222px;
+}
+.fp2{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top:158px;
+    left: 380px;
+}
+.fa-facebook{
+    position: absolute;
+    left:660px;
+    top:130px;
+    font-size: 20px;
+  
+}
+.fa-x-twitter{
+    position: absolute;
+    left:700px;
+    top:130px;
+    font-size: 20px;
+}
+.fa-instagram{
+    position: absolute;
+    left:740px;
+    top:130px;
+    font-size: 20px;
+}
+.fa-linkedin-in{
+    position: absolute;
+    left:780px;
+    top:130px;
+    font-size: 20px;
+
+}
+.copy{
+    position: absolute;
+    left:660px;
+    top:190px;
+    font-size: 14px;
+    color: gray;
+
+}
+footer{
+    background-color: aliceblue;
 }
